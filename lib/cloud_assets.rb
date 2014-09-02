@@ -88,8 +88,7 @@ module CloudAssets
           end
           options = {
             :followlocation => true,
-            :maxredirs => 3,
-            :cache_timeout => CloudAssets::cache_timeout_seconds
+            :maxredirs => 3
           }
           unless CloudAssets::user.nil?
             options[:username] = CloudAssets::user
