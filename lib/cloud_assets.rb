@@ -87,8 +87,8 @@ module CloudAssets
             end
           end
           options = {
-            :follow_location => true,
-            :max_redirects => 3,
+            :followlocation => true,
+            :maxredirs => 3,
             :cache_timeout => CloudAssets::cache_timeout_seconds
           }
           unless CloudAssets::user.nil?
